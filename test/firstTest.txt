@@ -1,0 +1,23 @@
+your task
+------------------
+
+1) Create new repo
+2) delete again create 
+3) make a file and push it and also pull.
+------------------------------
+4) write all tags details with 10 examples
+h1 - h6
+p
+span
+italic
+blod
+underline
+table
+a
+image
+ol
+ul
+form
+button
+div
+input
