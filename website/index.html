@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .header {
+            background-color: #f2f2f2;
+            padding: 40px;
+            line-height: 60px;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .section-1 {
+            width: 20%;
+        }
+
+        .section-2 {
+            width: 60%;
+        }
+
+        .section-3 {
+            width: 20%
+        }
+
+        @media screen and (max-width: 1024px) {
+            .header {
+                line-height: 40px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .section-1 {
+                width: 100% !important;
+            }
+
+            .section-2 {
+                width: 100% !important;
+            }
+
+            .section-3 {
+                width: 100% !important;
+            }
+        }
+
+        @media screen and (max-width: 880px) {
+            .section-1 {
+                width: 20%;
+            }
+
+            .section-2 {
+                width: 80%;
+            }
+
+            .section-3 {
+                width: 100%
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>Cinque Terre</h1>
+        <h2>Resize the browser window</h2>
+    </header>
+    <section class="container">
+        <section class="section-1">
+            <h3>The Walk</h3>
+            <hr />
+            <h3>Transport</h3>
+            <hr />
+            <h3>History</h3>
+            <hr />
+            <h3>Gallery</h3>
+            <hr />
+        </section>
+        <section class="section-2">
+            <h1>The Walk</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas cupiditate, vitae error quibusdam
+                sapiente totam cum atque eum expedita dicta perferendis voluptatibus a odit, in, soluta autem illo
+                corrupti recusandae?</p>
+            <img src="https://www.w3schools.com/html/img_5terre.jpg" alt="this is img" width="380px" />
+        </section>
+        <section class="section-3">
+            <div>
+                <h1>What?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in dolorem! Aliquid blanditiis nam
+                    ullam aliquam laborum hic explicabo? Porro error sed rerum, ratione eveniet alias id ex modi nulla!
+                </p>
+                <h1>where?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in dolorem! Aliquid blanditiis nam
+                    ullam aliquam laborum hic explicabo? Porro error sed rerum, ratione eveniet alias id ex modi nulla!
+                </p>
+                <h1>Price?</h1>
+                <p>100$</p>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
